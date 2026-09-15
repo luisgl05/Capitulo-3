@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--Luis Enrique Gonzalez Gonzalez 217O03003-->
+<!--Ejercicio 8 del cap 3-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 3.8</title>
+    </head>
+    <body>
+        <h1>EJERCICIO 3.8</h1>
+            <p>INTRODUCCIÓN: Cree un elemento input autocomplete con un elemento datalist asociado que contenga los días de la semana
+            </p>
+        <hr>
+        <h2>Formulario de la semana</h2>
+        <form action="procesar.php" method="post">
+            <label for="dia">Selecciona un día de la semana:</label>
+            <input type="text" id="dia" name="dia" list="listaDias" placeholder = "Selecciona un día de la semana">
+            <datalist id="listaDias">
+                <option value="Lunes">
+                <option value="Martes">
+                <option value="Miércoles">
+                <option value="Jueves">
+                <option value="Viernes">
+                <option value="Sábado">
+                <option value="Domingo">
+            </datalist>
+        </form>
+        
+        <p>
+            <a href="Menu de los ejercicios.html"><input type="button" value="Menu principal"></a>
+        </p>
+
+    </body>
+</html>
